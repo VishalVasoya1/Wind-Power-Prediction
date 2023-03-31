@@ -25,10 +25,19 @@ We also performed feature importance analysis to understand which variables were
 
 <h3>Metrics:</h3>
 
-Mean squared error: measures the average squared difference between the predicted and actual values.<br>
-Mean absolute error: measures the average absolute difference between the predicted and actual values.<br>
-R-squared score: measures how well the model fits the data by comparing the variance of the predicted values to the variance of the actual values.<br>
-Explained variance score: measures the proportion of variance in the dependent variable that is explained by the independent variables.<br>
+  <h3>Linear Model:</h3>
+
+    * R-squared score (R2 score): measures the proportion of variance in the dependent variable that is predictable from the independent variable(s). In this project,       the R2 score for the linear model was 0.88, indicating that the model explains 88% of the variance in the data.<br>
+    * Mean absolute error (MAE): measures the average absolute difference between the predicted and actual values. In this project, the MAE for the linear model was         353.<br>
+    * Root mean squared error (RMSE): measures the square root of the average squared difference between the predicted and actual values. In this project, the RMSE for       the linear model was 446.
+
+  <h3>Gradient Boosted Trees Model:</h3>
+
+    * R-squared score (R2 score): measures the proportion of variance in the dependent variable that is predictable from the independent variable(s). In this project,       the R2 score for the gradient boosted trees model was 0.9813, indicating that the model explains 98.13% of the variance in the data.<br>
+    * Mean absolute error (MAE): measures the average absolute difference between the predicted and actual values. In this project, the MAE for the gradient boosted         trees model was 83.77.<br>
+    * Root mean squared error (RMSE): measures the square root of the average squared difference between the predicted and actual values. In this project, the RMSE for       the gradient boosted trees model was 179.
+    
+These metrics show that the gradient boosted trees model outperformed the linear model in terms of both R2 score and error metrics. The gradient boosted trees model was able to explain a higher proportion of the variance in the data and had lower errors (MAE and RMSE) compared to the linear model. However, it's important to keep in mind that the performance of the model may vary depending on the specific data and context it is applied to.
 
 <h3>Conclusion:</h3>
 
